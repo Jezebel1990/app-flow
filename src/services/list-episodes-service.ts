@@ -1,0 +1,17 @@
+export const serviceListEpisodes = async ()=> {
+    const data = [
+          {
+              podcastName: "flow",
+              episode: "SÓ USAMOS 10% DO CÉREBRO? [Com Lucas Zanandrez do @olaciencia] - Flow #471",
+              videoId: "aGsBPwMYJUM",
+              categories: ["saúde","bodybuilder"]
+            },
+            {
+              podcastName: "flow",
+              episode: "THIAGO NIGRO (PRIMO RICO) - Flow Podcast #353",
+              videoId: "LWzqlBHJ8wc",
+              categories: ["economia"]
+            },
+    ];
+    return data;
+}
